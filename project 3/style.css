@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    background-image:url('sayonara no asa ni yakusoku no hana wo kazarou _ Tumblr.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 75%;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.classimg{
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    transition: 0.7s;
+
+}
+.classimg:hover{
+    border: 5px solid black;
+    width: 250px;
+    height: 350px;
+    transition: 0.7s;
+    box-shadow: 20px 20px yellow;
+}
+.ktiba{
+    margin-left: 15px;
+    color: aqua;
+}
